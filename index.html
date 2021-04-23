@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HK:cube</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">HK:<span>cube</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="https://github.com/HKmus?tab=repositories">About us</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li class="go-premium-cta"><a href="mailto:mus.kch03@gmail.com?subject=Join request">Become an HK member</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">You need to learn web design</p>
+                <h1>Hi there, welcome to our webpage</h1>
+
+                <div class="hero-cta">
+                    <a href="mailto:mus.kch03@gmail.com?subject=Join request" class="primary-cta">You can join us</a>
+                </div>
+            </div>
+
+            <img src="images/illustration.svg" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <H2>Why you need to learn web design:</H2>
+                <li>It makes more than 50,000 USD/month</li>
+                <li>Do not require much time to learn</li>
+                <li>Has a large community support</li>
+                <li>Has a big demand by many great companies</li>
+            </ul>
+
+            <img src="images/icon-2488093.png" alt="icon-2488093">
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/logo-html.png" alt="logo">
+
+                    <blockquote>HTML is a computer language used on the Internet. This language is used to create web pages. The acronym stands for HyperText Markup Language, which in French means "hypertext markup language". This meaning is aptly named since indeed this language makes it possible to produce hypertext based on a markup structure.</blockquote>
+                    <cite><a href="https://www.w3schools.com/html/default.asp" class="pox">Start learning HTML now</a></cite>
+                </li>
+                <li>
+                    <img src="images/logo-css.png" alt="logo">
+
+                    <blockquote>The term CSS is the acronym for Cascading Style Sheets which can be translated as "cascading style sheets". CSS is a computer language used on the Internet to format HTML or XML files. Thus, style sheets, also called CSS files, include code that allows you to manage the design of a page in HTML.</blockquote>
+                    <cite><a href="https://www.w3schools.com/css/default.asp" class="pox">Start learning CSS now</a></cite>
+                </li>
+                <li>
+                    <img src="images/logo-js.png" alt="logo">
+
+                    <blockquote>JavaScript is a computer language used on web pages. This language has the particularity of being activated on the client workstation, in other words it is your computer which will receive the code and which will have to execute it. This is in opposition to other languages ​​which are enabled on the server side. The code is executed by your internet browser such as Firefox or Internet Explorer.</blockquote>
+                    <cite><a href="https://www.w3schools.com/js/default.asp" class="pox">Start learning JavaScript now</a></cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="info">
+            <p class="label">for more informations contact us</p>
+            <a href="mailto:mus.kch03@gmail.com?subject=Contact" class="link">mus.kch03@gmail.com</a>
+          </div>
+        <div class="footer">
+            &copy; 2021 <span>HK community</span> All Right Reserved
+        </div>
+    </section>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+
+</body>
+</html>
